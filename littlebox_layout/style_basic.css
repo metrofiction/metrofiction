@@ -117,10 +117,6 @@ section > img {
   border-radius: 4px;
 }
 
-/* #character img {
-  width: 100%;
-} */
-
 .talk {
   background: var(--speech-color);
   margin: 5px;
