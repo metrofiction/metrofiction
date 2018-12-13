@@ -6,6 +6,24 @@
 		@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
 		@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
+		@media only screen and (min-width: 600px){
+		  body {
+		    max-width: 600px;
+		    margin: auto;
+		  }
+		}
+
+		@media screen and (max-width: 600px){
+		  body {
+		    width: 600px;
+		    margin: auto;
+		  }
+
+		  p {
+		    font-size: 1.5em;
+		  }
+		}
+
 		*
 		{
 			text-align: center;
@@ -20,8 +38,8 @@
 		div
 		{
 			margin: auto;
-  			width: 50%;
-  			padding: 10%;
+			/* width: 50%; */
+			padding: 10%;
 		}
 
 		p, h5 {
@@ -30,6 +48,7 @@
 	</style>
 </head>
 <body>
+	<meta name="viewport" content="width=device-width">
 	<div>
 		<img src="img/train.gif" width="10%">
 		<h1>METROFICTION</h1>
