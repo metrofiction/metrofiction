@@ -6,6 +6,10 @@
     max-width: 600px;
     margin: auto;
   }
+
+  p {
+    font-size: 1.2em;
+  }
 }
 
 @media screen and (max-width: 600px){
@@ -15,7 +19,7 @@
   }
 
   p {
-    font-size: 1.5em;
+    font-size: 1.8em;
   }
 }
 
@@ -104,18 +108,18 @@ section > img {
 
 .speech {
   display: flex;
-  margin-bottom: 5px;
+  margin: 5px 5px 10px 5px;
 }
 
 .reply {
   display: flex;
   flex-direction: row-reverse;
-  margin-bottom: 5px;
+  margin: 5px;
 }
 
 #character img {
-  width: 90px;
-  height: 90px;
+  width: 70px;
+  height: 70px;
   margin: 5px;
   padding: 6px;
   border-radius: 50%;
