@@ -35,11 +35,30 @@ body {
   height: 100%;
 }
 
-.timeline {
+#timeline {
   background: #858585;
   box-shadow: 0 -10px 20px #595959 inset;
   position: absolute;
   width: 600px;
+  text-align: center;
+}
+
+#gototop {
+  margin: auto;
+  padding-top: 10px;
+  margin-bottom: 20px;
+  width : 70px;
+  height: 70px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  color : #919191;
+}
+
+#gototop:hover {
+  color: #b8b8b8;
+  background: #393939;
+  transition: all 0.3s ease;
 }
 
 header, section {
@@ -48,13 +67,30 @@ header, section {
   box-shadow: 0 0 6px #6b6b6b;
   margin: 15px;
   overflow: hidden;
+  text-align: center;
+}
+
+header {
+  display: flex;
 }
 
 header > h1 {
   font-family: 'Open Sans', sans-serif;
   color: white;
-  text-align: center;
+  margin: auto;
+  display: inline;
+}
+
+header > i {
+  color: #919191;
   padding: 20px;
+  background: #cdcdcd;
+}
+
+header > i:hover {
+  color: #c2c0c0;
+  background: #989898;
+  transition: all 0.3s ease;
 }
 
 section > img {
@@ -87,6 +123,7 @@ section > img {
   padding: 10px;
   border-radius: 4px;
   position: relative;
+  text-align: left;
 }
 
 .speech .talk ::before
