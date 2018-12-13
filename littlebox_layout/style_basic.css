@@ -110,12 +110,16 @@ section > img {
   margin-bottom: 5px;
 }
 
-.character {
+#character img {
   width: 100px;
   height: 100px;
   margin: 5px;
   border-radius: 4px;
 }
+
+/* #character img {
+  width: 100%;
+} */
 
 .talk {
   background: var(--speech-color);
