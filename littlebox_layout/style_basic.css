@@ -73,22 +73,24 @@ header, section {
 
 header {
   display: flex;
+  background-image: url('img/texture.jpg');
+  background-size: 60%;
 }
 
-header > h1 {
+#titre {
   font-family: 'Open Sans', sans-serif;
   color: white;
   margin: auto;
   display: inline;
 }
 
-header > i {
+#config {
   color: #919191;
   padding: 20px;
   background: #cdcdcd;
 }
 
-header > i:hover {
+#config:hover {
   color: #c2c0c0;
   background: #989898;
   transition: all 0.3s ease;
@@ -112,9 +114,10 @@ section > img {
 }
 
 #character img {
-  width: 100px;
-  height: 100px;
+  width: 90px;
+  height: 90px;
   margin: 5px;
+  padding: 6px;
   border-radius: 50%;
 }
 
@@ -156,21 +159,6 @@ section > img {
     border-bottom:  7px solid transparent;
     border-left: 10px solid var(--speech-color);
 }
-
-/* hr {
-  background-color: #5e5e5e;
-  border: none;
-  height: 3px;
-  margin-bottom: 10px;
-} */
-
-/* hr {
-  color:rgb(29, 29, 29);
-  background:rgb(61, 61, 61);
-  border-top:1px rgb(78, 78, 78) dashed;
-  border: 1px rgb(65, 65, 65)
-  margin-bottom: 10px;
-} */
 
 hr {
 	height: 6px;
