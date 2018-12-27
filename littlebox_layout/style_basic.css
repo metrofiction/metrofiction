@@ -11,6 +11,10 @@
   p {
     font-size: 1.2em;
   }
+
+  #timeline {
+    box-shadow: 0 0px 20px rgba(0, 0, 0, 0.5) inset;
+  }
 }
 
 @media screen and (max-width: 600px){
@@ -49,7 +53,6 @@ body {
   radial-gradient(circle 1000px at 250px 2800px, rgba(143, 19, 128, 1), transparent);
   /* linear-gradient(0deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 70%, rgba(252,176,69,1) 100%); */
   /* box-shadow: 0 -10px 20px rgba(255, 255, 255, 0.5) inset; */
-  box-shadow: 0 0px 20px rgba(0, 0, 0, 0.5) inset;
   position: absolute;
   width: 600px;
   text-align: center;
