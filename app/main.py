@@ -3,14 +3,16 @@
 
 from webapp2 import WSGIApplication, Route
 
-from handlers.main import HelloPage, AdminPage, MainPage
+from handlers.main import AdminPage, MainPage, StoriesJson, StoryJson
 
 
 ADMIN_HANDLERS = [
     Route(AdminPage.URL, AdminPage),
 ]
 APP_HANDLERS = [
-    Route(HelloPage.URL, HelloPage),
+    Route(StoryJson.URL, StoryJson),
+    Route(StoriesJson.URL, StoriesJson),
+
     Route(MainPage.URL, MainPage)
 ]
 
