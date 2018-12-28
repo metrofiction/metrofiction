@@ -1,0 +1,14 @@
+{
+  "sections": [
+     [
+      {"type" : "img", "url":"cases/002.jpg" },
+      {"type" : "speech", "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ."},
+      {"type" : "reply", "text": "Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."},
+      {"type" : "reply", "text": "Ok."}
+    ],
+    [
+      {"type" : "speech", "text": " Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ."},
+      {"type" : "img", "url":"cases/005.jpg" }
+    ]
+  ]
+}
